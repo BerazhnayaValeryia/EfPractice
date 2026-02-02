@@ -12,12 +12,17 @@ var productRepo = new ProductRepository(context);
 while (true)
 {
     Console.WriteLine("""
+    Menu
+    ______________________
     1. Show manufacturers
     2. Add manufacturer
     3. Delete manufacturer
+    ______________________
     4. Show products
     5. Add product
+    ______________________
     6. Business operation
+    ______________________
     0. Exit
     """);
 
